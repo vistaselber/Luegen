@@ -8,12 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		CFEFC30F27CB70DC0097F7CE /* LuegenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC30E27CB70DC0097F7CE /* LuegenApp.swift */; };
-		CFEFC31127CB70DC0097F7CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC31027CB70DC0097F7CE /* ContentView.swift */; };
+		CFEFC31127CB70DC0097F7CE /* ContentViewTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC31027CB70DC0097F7CE /* ContentViewTemplate.swift */; };
 		CFEFC31327CB70DD0097F7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEFC31227CB70DD0097F7CE /* Assets.xcassets */; };
 		CFEFC31627CB70DD0097F7CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEFC31527CB70DD0097F7CE /* Preview Assets.xcassets */; };
 		CFEFC32027CB70DD0097F7CE /* LuegenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC31F27CB70DD0097F7CE /* LuegenTests.swift */; };
 		CFEFC32A27CB70DE0097F7CE /* LuegenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC32927CB70DE0097F7CE /* LuegenUITests.swift */; };
 		CFEFC32C27CB70DE0097F7CE /* LuegenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC32B27CB70DE0097F7CE /* LuegenUITestsLaunchTests.swift */; };
+		CFEFC36327CB710B0097F7CE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC33A27CB710B0097F7CE /* Card.swift */; };
+		CFEFC36427CB710B0097F7CE /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC33B27CB710B0097F7CE /* CardType.swift */; };
+		CFEFC36527CB710B0097F7CE /* CardColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC33C27CB710B0097F7CE /* CardColor.swift */; };
+		CFEFC36627CB710B0097F7CE /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC33D27CB710B0097F7CE /* CardDeck.swift */; };
+		CFEFC36727CB710B0097F7CE /* RandomComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC33F27CB710B0097F7CE /* RandomComputer.swift */; };
+		CFEFC36827CB710B0097F7CE /* CardHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC34027CB710B0097F7CE /* CardHolder.swift */; };
+		CFEFC36927CB710B0097F7CE /* DemoComputer2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC34127CB710B0097F7CE /* DemoComputer2.swift */; };
+		CFEFC36A27CB710B0097F7CE /* AbstractComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC34227CB710B0097F7CE /* AbstractComputer.swift */; };
+		CFEFC36B27CB710B0097F7CE /* DemoComputer1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC34327CB710B0097F7CE /* DemoComputer1.swift */; };
+		CFEFC36C27CB710B0097F7CE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC34427CB710B0097F7CE /* User.swift */; };
+		CFEFC36D27CB710B0097F7CE /* SimpleComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC34527CB710B0097F7CE /* SimpleComputer.swift */; };
+		CFEFC36E27CB710B0097F7CE /* PlayerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC34627CB710B0097F7CE /* PlayerFactory.swift */; };
+		CFEFC36F27CB710B0097F7CE /* NonEventUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC34727CB710B0097F7CE /* NonEventUser.swift */; };
+		CFEFC37027CB710B0097F7CE /* YourTurnProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC34827CB710B0097F7CE /* YourTurnProtocol.swift */; };
+		CFEFC37127CB710B0097F7CE /* GameDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC34A27CB710B0097F7CE /* GameDataClass.swift */; };
+		CFEFC37227CB710B0097F7CE /* GameDataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC34B27CB710B0097F7CE /* GameDataStruct.swift */; };
+		CFEFC37327CB710B0097F7CE /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC34C27CB710B0097F7CE /* GameSettings.swift */; };
+		CFEFC37427CB710B0097F7CE /* TestServiceDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC34F27CB710B0097F7CE /* TestServiceDelegateProtocol.swift */; };
+		CFEFC37527CB710B0097F7CE /* TestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC35027CB710B0097F7CE /* TestService.swift */; };
+		CFEFC37627CB710B0097F7CE /* MPCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC35227CB710B0097F7CE /* MPCManager.swift */; };
+		CFEFC37727CB710B0097F7CE /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC35327CB710B0097F7CE /* Message.swift */; };
+		CFEFC37827CB710B0097F7CE /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC35427CB710B0097F7CE /* Device.swift */; };
+		CFEFC37927CB710B0097F7CE /* MPCHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC35527CB710B0097F7CE /* MPCHandler.swift */; };
+		CFEFC37A27CB710B0097F7CE /* DemoGameMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC35727CB710B0097F7CE /* DemoGameMaster.swift */; };
+		CFEFC37B27CB710B0097F7CE /* AbstractGamemaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC35827CB710B0097F7CE /* AbstractGamemaster.swift */; };
+		CFEFC37C27CB710B0097F7CE /* MoveLieHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC35927CB710B0097F7CE /* MoveLieHandler.swift */; };
+		CFEFC37D27CB710B0097F7CE /* GameMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC35A27CB710B0097F7CE /* GameMaster.swift */; };
+		CFEFC37E27CB710B0097F7CE /* YourTurnEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC35C27CB710B0097F7CE /* YourTurnEvent.swift */; };
+		CFEFC37F27CB710B0097F7CE /* RWLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC35D27CB710B0097F7CE /* RWLock.swift */; };
+		CFEFC38027CB710B0097F7CE /* EventHandlerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC35E27CB710B0097F7CE /* EventHandlerFactory.swift */; };
+		CFEFC38127CB710B0097F7CE /* MoveLieEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC35F27CB710B0097F7CE /* MoveLieEvent.swift */; };
+		CFEFC38227CB710B0097F7CE /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC36027CB710B0097F7CE /* Event.swift */; };
+		CFEFC38327CB710B0097F7CE /* NextPlayerEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC36127CB710B0097F7CE /* NextPlayerEvent.swift */; };
+		CFEFC38427CB710B0097F7CE /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC36227CB710B0097F7CE /* Signal.swift */; };
+		CFEFC39727CB71210097F7CE /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC38627CB71210097F7CE /* StartView.swift */; };
+		CFEFC39827CB71210097F7CE /* CardTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC38827CB71210097F7CE /* CardTypesView.swift */; };
+		CFEFC39927CB71210097F7CE /* DropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC38927CB71210097F7CE /* DropdownView.swift */; };
+		CFEFC39A27CB71210097F7CE /* DropdownViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC38A27CB71210097F7CE /* DropdownViewData.swift */; };
+		CFEFC39B27CB71210097F7CE /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC38B27CB71210097F7CE /* PlayerRow.swift */; };
+		CFEFC39C27CB71210097F7CE /* CardTypesViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC38C27CB71210097F7CE /* CardTypesViewData.swift */; };
+		CFEFC39D27CB71210097F7CE /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC38D27CB71210097F7CE /* CardsView.swift */; };
+		CFEFC39E27CB71210097F7CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC38E27CB71210097F7CE /* ContentView.swift */; };
+		CFEFC39F27CB71210097F7CE /* StartMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC38F27CB71210097F7CE /* StartMenu.swift */; };
+		CFEFC3A027CB71210097F7CE /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC39127CB71210097F7CE /* Service.swift */; };
+		CFEFC3A127CB71210097F7CE /* MultiplayerOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC39227CB71210097F7CE /* MultiplayerOverview.swift */; };
+		CFEFC3A227CB71210097F7CE /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC39427CB71210097F7CE /* GameView.swift */; };
+		CFEFC3A327CB71210097F7CE /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC39527CB71210097F7CE /* StepperView.swift */; };
+		CFEFC3A427CB71210097F7CE /* PlayerTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC39627CB71210097F7CE /* PlayerTypeView.swift */; };
+		CFEFC3A627CB765B0097F7CE /* GameFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC3A527CB765B0097F7CE /* GameFactory.swift */; };
+		CFEFC3A827CB7E860097F7CE /* MoveLieHandlerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC3A727CB7E860097F7CE /* MoveLieHandlerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +86,7 @@
 /* Begin PBXFileReference section */
 		CFEFC30B27CB70DC0097F7CE /* Luegen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luegen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEFC30E27CB70DC0097F7CE /* LuegenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuegenApp.swift; sourceTree = "<group>"; };
-		CFEFC31027CB70DC0097F7CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFEFC31027CB70DC0097F7CE /* ContentViewTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewTemplate.swift; sourceTree = "<group>"; };
 		CFEFC31227CB70DD0097F7CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFEFC31527CB70DD0097F7CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CFEFC31B27CB70DD0097F7CE /* LuegenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuegenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +94,56 @@
 		CFEFC32527CB70DE0097F7CE /* LuegenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuegenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEFC32927CB70DE0097F7CE /* LuegenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuegenUITests.swift; sourceTree = "<group>"; };
 		CFEFC32B27CB70DE0097F7CE /* LuegenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuegenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFEFC33A27CB710B0097F7CE /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CFEFC33B27CB710B0097F7CE /* CardType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardType.swift; sourceTree = "<group>"; };
+		CFEFC33C27CB710B0097F7CE /* CardColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardColor.swift; sourceTree = "<group>"; };
+		CFEFC33D27CB710B0097F7CE /* CardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDeck.swift; sourceTree = "<group>"; };
+		CFEFC33F27CB710B0097F7CE /* RandomComputer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomComputer.swift; sourceTree = "<group>"; };
+		CFEFC34027CB710B0097F7CE /* CardHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardHolder.swift; sourceTree = "<group>"; };
+		CFEFC34127CB710B0097F7CE /* DemoComputer2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoComputer2.swift; sourceTree = "<group>"; };
+		CFEFC34227CB710B0097F7CE /* AbstractComputer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractComputer.swift; sourceTree = "<group>"; };
+		CFEFC34327CB710B0097F7CE /* DemoComputer1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoComputer1.swift; sourceTree = "<group>"; };
+		CFEFC34427CB710B0097F7CE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CFEFC34527CB710B0097F7CE /* SimpleComputer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleComputer.swift; sourceTree = "<group>"; };
+		CFEFC34627CB710B0097F7CE /* PlayerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerFactory.swift; sourceTree = "<group>"; };
+		CFEFC34727CB710B0097F7CE /* NonEventUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonEventUser.swift; sourceTree = "<group>"; };
+		CFEFC34827CB710B0097F7CE /* YourTurnProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourTurnProtocol.swift; sourceTree = "<group>"; };
+		CFEFC34A27CB710B0097F7CE /* GameDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDataClass.swift; sourceTree = "<group>"; };
+		CFEFC34B27CB710B0097F7CE /* GameDataStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDataStruct.swift; sourceTree = "<group>"; };
+		CFEFC34C27CB710B0097F7CE /* GameSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		CFEFC34F27CB710B0097F7CE /* TestServiceDelegateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestServiceDelegateProtocol.swift; sourceTree = "<group>"; };
+		CFEFC35027CB710B0097F7CE /* TestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestService.swift; sourceTree = "<group>"; };
+		CFEFC35227CB710B0097F7CE /* MPCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCManager.swift; sourceTree = "<group>"; };
+		CFEFC35327CB710B0097F7CE /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		CFEFC35427CB710B0097F7CE /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		CFEFC35527CB710B0097F7CE /* MPCHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCHandler.swift; sourceTree = "<group>"; };
+		CFEFC35727CB710B0097F7CE /* DemoGameMaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoGameMaster.swift; sourceTree = "<group>"; };
+		CFEFC35827CB710B0097F7CE /* AbstractGamemaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractGamemaster.swift; sourceTree = "<group>"; };
+		CFEFC35927CB710B0097F7CE /* MoveLieHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveLieHandler.swift; sourceTree = "<group>"; };
+		CFEFC35A27CB710B0097F7CE /* GameMaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMaster.swift; sourceTree = "<group>"; };
+		CFEFC35C27CB710B0097F7CE /* YourTurnEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourTurnEvent.swift; sourceTree = "<group>"; };
+		CFEFC35D27CB710B0097F7CE /* RWLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RWLock.swift; sourceTree = "<group>"; };
+		CFEFC35E27CB710B0097F7CE /* EventHandlerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventHandlerFactory.swift; sourceTree = "<group>"; };
+		CFEFC35F27CB710B0097F7CE /* MoveLieEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveLieEvent.swift; sourceTree = "<group>"; };
+		CFEFC36027CB710B0097F7CE /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		CFEFC36127CB710B0097F7CE /* NextPlayerEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextPlayerEvent.swift; sourceTree = "<group>"; };
+		CFEFC36227CB710B0097F7CE /* Signal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal.swift; sourceTree = "<group>"; };
+		CFEFC38627CB71210097F7CE /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		CFEFC38827CB71210097F7CE /* CardTypesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTypesView.swift; sourceTree = "<group>"; };
+		CFEFC38927CB71210097F7CE /* DropdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropdownView.swift; sourceTree = "<group>"; };
+		CFEFC38A27CB71210097F7CE /* DropdownViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropdownViewData.swift; sourceTree = "<group>"; };
+		CFEFC38B27CB71210097F7CE /* PlayerRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
+		CFEFC38C27CB71210097F7CE /* CardTypesViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTypesViewData.swift; sourceTree = "<group>"; };
+		CFEFC38D27CB71210097F7CE /* CardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
+		CFEFC38E27CB71210097F7CE /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFEFC38F27CB71210097F7CE /* StartMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartMenu.swift; sourceTree = "<group>"; };
+		CFEFC39127CB71210097F7CE /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		CFEFC39227CB71210097F7CE /* MultiplayerOverview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplayerOverview.swift; sourceTree = "<group>"; };
+		CFEFC39427CB71210097F7CE /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		CFEFC39527CB71210097F7CE /* StepperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		CFEFC39627CB71210097F7CE /* PlayerTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerTypeView.swift; sourceTree = "<group>"; };
+		CFEFC3A527CB765B0097F7CE /* GameFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFactory.swift; sourceTree = "<group>"; };
+		CFEFC3A727CB7E860097F7CE /* MoveLieHandlerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveLieHandlerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +194,10 @@
 		CFEFC30D27CB70DC0097F7CE /* Luegen */ = {
 			isa = PBXGroup;
 			children = (
+				CFEFC38527CB71210097F7CE /* View */,
+				CFEFC33827CB710B0097F7CE /* Logic */,
 				CFEFC30E27CB70DC0097F7CE /* LuegenApp.swift */,
-				CFEFC31027CB70DC0097F7CE /* ContentView.swift */,
+				CFEFC31027CB70DC0097F7CE /* ContentViewTemplate.swift */,
 				CFEFC31227CB70DD0097F7CE /* Assets.xcassets */,
 				CFEFC31427CB70DD0097F7CE /* Preview Content */,
 			);
@@ -125,6 +227,158 @@
 				CFEFC32B27CB70DE0097F7CE /* LuegenUITestsLaunchTests.swift */,
 			);
 			path = LuegenUITests;
+			sourceTree = "<group>";
+		};
+		CFEFC33827CB710B0097F7CE /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFC33927CB710B0097F7CE /* Cards */,
+				CFEFC33E27CB710B0097F7CE /* User */,
+				CFEFC34927CB710B0097F7CE /* Game */,
+				CFEFC34D27CB710B0097F7CE /* MultiplayerLogic */,
+				CFEFC35627CB710B0097F7CE /* GameMaster */,
+				CFEFC35B27CB710B0097F7CE /* Event */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		CFEFC33927CB710B0097F7CE /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFC33A27CB710B0097F7CE /* Card.swift */,
+				CFEFC33B27CB710B0097F7CE /* CardType.swift */,
+				CFEFC33C27CB710B0097F7CE /* CardColor.swift */,
+				CFEFC33D27CB710B0097F7CE /* CardDeck.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		CFEFC33E27CB710B0097F7CE /* User */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFC33F27CB710B0097F7CE /* RandomComputer.swift */,
+				CFEFC34027CB710B0097F7CE /* CardHolder.swift */,
+				CFEFC34127CB710B0097F7CE /* DemoComputer2.swift */,
+				CFEFC34227CB710B0097F7CE /* AbstractComputer.swift */,
+				CFEFC34327CB710B0097F7CE /* DemoComputer1.swift */,
+				CFEFC34427CB710B0097F7CE /* User.swift */,
+				CFEFC34527CB710B0097F7CE /* SimpleComputer.swift */,
+				CFEFC34627CB710B0097F7CE /* PlayerFactory.swift */,
+				CFEFC34727CB710B0097F7CE /* NonEventUser.swift */,
+				CFEFC34827CB710B0097F7CE /* YourTurnProtocol.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		CFEFC34927CB710B0097F7CE /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFC34A27CB710B0097F7CE /* GameDataClass.swift */,
+				CFEFC34B27CB710B0097F7CE /* GameDataStruct.swift */,
+				CFEFC34C27CB710B0097F7CE /* GameSettings.swift */,
+				CFEFC3A527CB765B0097F7CE /* GameFactory.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		CFEFC34D27CB710B0097F7CE /* MultiplayerLogic */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFC34E27CB710B0097F7CE /* TestService */,
+				CFEFC35127CB710B0097F7CE /* TestService2 */,
+				CFEFC35527CB710B0097F7CE /* MPCHandler.swift */,
+			);
+			path = MultiplayerLogic;
+			sourceTree = "<group>";
+		};
+		CFEFC34E27CB710B0097F7CE /* TestService */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFC34F27CB710B0097F7CE /* TestServiceDelegateProtocol.swift */,
+				CFEFC35027CB710B0097F7CE /* TestService.swift */,
+			);
+			path = TestService;
+			sourceTree = "<group>";
+		};
+		CFEFC35127CB710B0097F7CE /* TestService2 */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFC35227CB710B0097F7CE /* MPCManager.swift */,
+				CFEFC35327CB710B0097F7CE /* Message.swift */,
+				CFEFC35427CB710B0097F7CE /* Device.swift */,
+			);
+			path = TestService2;
+			sourceTree = "<group>";
+		};
+		CFEFC35627CB710B0097F7CE /* GameMaster */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFC35727CB710B0097F7CE /* DemoGameMaster.swift */,
+				CFEFC35827CB710B0097F7CE /* AbstractGamemaster.swift */,
+				CFEFC35927CB710B0097F7CE /* MoveLieHandler.swift */,
+				CFEFC35A27CB710B0097F7CE /* GameMaster.swift */,
+				CFEFC3A727CB7E860097F7CE /* MoveLieHandlerDelegate.swift */,
+			);
+			path = GameMaster;
+			sourceTree = "<group>";
+		};
+		CFEFC35B27CB710B0097F7CE /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFC35C27CB710B0097F7CE /* YourTurnEvent.swift */,
+				CFEFC35D27CB710B0097F7CE /* RWLock.swift */,
+				CFEFC35E27CB710B0097F7CE /* EventHandlerFactory.swift */,
+				CFEFC35F27CB710B0097F7CE /* MoveLieEvent.swift */,
+				CFEFC36027CB710B0097F7CE /* Event.swift */,
+				CFEFC36127CB710B0097F7CE /* NextPlayerEvent.swift */,
+				CFEFC36227CB710B0097F7CE /* Signal.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		CFEFC38527CB71210097F7CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFC38627CB71210097F7CE /* StartView.swift */,
+				CFEFC38F27CB71210097F7CE /* StartMenu.swift */,
+				CFEFC38727CB71210097F7CE /* Gameplay */,
+				CFEFC39027CB71210097F7CE /* Multiplayer */,
+				CFEFC39327CB71210097F7CE /* Singleplayer */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFEFC38727CB71210097F7CE /* Gameplay */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFC38827CB71210097F7CE /* CardTypesView.swift */,
+				CFEFC38927CB71210097F7CE /* DropdownView.swift */,
+				CFEFC38A27CB71210097F7CE /* DropdownViewData.swift */,
+				CFEFC38B27CB71210097F7CE /* PlayerRow.swift */,
+				CFEFC38C27CB71210097F7CE /* CardTypesViewData.swift */,
+				CFEFC38D27CB71210097F7CE /* CardsView.swift */,
+				CFEFC38E27CB71210097F7CE /* ContentView.swift */,
+			);
+			path = Gameplay;
+			sourceTree = "<group>";
+		};
+		CFEFC39027CB71210097F7CE /* Multiplayer */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFC39127CB71210097F7CE /* Service.swift */,
+				CFEFC39227CB71210097F7CE /* MultiplayerOverview.swift */,
+			);
+			path = Multiplayer;
+			sourceTree = "<group>";
+		};
+		CFEFC39327CB71210097F7CE /* Singleplayer */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFC39427CB71210097F7CE /* GameView.swift */,
+				CFEFC39527CB71210097F7CE /* StepperView.swift */,
+				CFEFC39627CB71210097F7CE /* PlayerTypeView.swift */,
+			);
+			path = Singleplayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +511,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFEFC31127CB70DC0097F7CE /* ContentView.swift in Sources */,
+				CFEFC36627CB710B0097F7CE /* CardDeck.swift in Sources */,
+				CFEFC3A427CB71210097F7CE /* PlayerTypeView.swift in Sources */,
+				CFEFC3A027CB71210097F7CE /* Service.swift in Sources */,
+				CFEFC37B27CB710B0097F7CE /* AbstractGamemaster.swift in Sources */,
+				CFEFC37327CB710B0097F7CE /* GameSettings.swift in Sources */,
+				CFEFC37427CB710B0097F7CE /* TestServiceDelegateProtocol.swift in Sources */,
+				CFEFC36927CB710B0097F7CE /* DemoComputer2.swift in Sources */,
+				CFEFC36B27CB710B0097F7CE /* DemoComputer1.swift in Sources */,
+				CFEFC36A27CB710B0097F7CE /* AbstractComputer.swift in Sources */,
+				CFEFC37D27CB710B0097F7CE /* GameMaster.swift in Sources */,
+				CFEFC38327CB710B0097F7CE /* NextPlayerEvent.swift in Sources */,
+				CFEFC38227CB710B0097F7CE /* Event.swift in Sources */,
+				CFEFC3A327CB71210097F7CE /* StepperView.swift in Sources */,
+				CFEFC37127CB710B0097F7CE /* GameDataClass.swift in Sources */,
+				CFEFC39F27CB71210097F7CE /* StartMenu.swift in Sources */,
+				CFEFC37927CB710B0097F7CE /* MPCHandler.swift in Sources */,
+				CFEFC36527CB710B0097F7CE /* CardColor.swift in Sources */,
+				CFEFC38427CB710B0097F7CE /* Signal.swift in Sources */,
+				CFEFC39D27CB71210097F7CE /* CardsView.swift in Sources */,
+				CFEFC31127CB70DC0097F7CE /* ContentViewTemplate.swift in Sources */,
+				CFEFC38027CB710B0097F7CE /* EventHandlerFactory.swift in Sources */,
+				CFEFC36D27CB710B0097F7CE /* SimpleComputer.swift in Sources */,
+				CFEFC37227CB710B0097F7CE /* GameDataStruct.swift in Sources */,
+				CFEFC39827CB71210097F7CE /* CardTypesView.swift in Sources */,
+				CFEFC3A627CB765B0097F7CE /* GameFactory.swift in Sources */,
+				CFEFC3A827CB7E860097F7CE /* MoveLieHandlerDelegate.swift in Sources */,
+				CFEFC39A27CB71210097F7CE /* DropdownViewData.swift in Sources */,
+				CFEFC37A27CB710B0097F7CE /* DemoGameMaster.swift in Sources */,
+				CFEFC36E27CB710B0097F7CE /* PlayerFactory.swift in Sources */,
+				CFEFC37627CB710B0097F7CE /* MPCManager.swift in Sources */,
+				CFEFC36827CB710B0097F7CE /* CardHolder.swift in Sources */,
+				CFEFC36427CB710B0097F7CE /* CardType.swift in Sources */,
+				CFEFC37827CB710B0097F7CE /* Device.swift in Sources */,
+				CFEFC37E27CB710B0097F7CE /* YourTurnEvent.swift in Sources */,
+				CFEFC39B27CB71210097F7CE /* PlayerRow.swift in Sources */,
+				CFEFC36C27CB710B0097F7CE /* User.swift in Sources */,
+				CFEFC37027CB710B0097F7CE /* YourTurnProtocol.swift in Sources */,
+				CFEFC37727CB710B0097F7CE /* Message.swift in Sources */,
+				CFEFC37C27CB710B0097F7CE /* MoveLieHandler.swift in Sources */,
+				CFEFC36327CB710B0097F7CE /* Card.swift in Sources */,
+				CFEFC39E27CB71210097F7CE /* ContentView.swift in Sources */,
 				CFEFC30F27CB70DC0097F7CE /* LuegenApp.swift in Sources */,
+				CFEFC39C27CB71210097F7CE /* CardTypesViewData.swift in Sources */,
+				CFEFC39927CB71210097F7CE /* DropdownView.swift in Sources */,
+				CFEFC38127CB710B0097F7CE /* MoveLieEvent.swift in Sources */,
+				CFEFC39727CB71210097F7CE /* StartView.swift in Sources */,
+				CFEFC37527CB710B0097F7CE /* TestService.swift in Sources */,
+				CFEFC36727CB710B0097F7CE /* RandomComputer.swift in Sources */,
+				CFEFC3A127CB71210097F7CE /* MultiplayerOverview.swift in Sources */,
+				CFEFC37F27CB710B0097F7CE /* RWLock.swift in Sources */,
+				CFEFC3A227CB71210097F7CE /* GameView.swift in Sources */,
+				CFEFC36F27CB710B0097F7CE /* NonEventUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
