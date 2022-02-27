@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFEFC30F27CB70DC0097F7CE /* LuegenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC30E27CB70DC0097F7CE /* LuegenApp.swift */; };
+		CFEFC31127CB70DC0097F7CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC31027CB70DC0097F7CE /* ContentView.swift */; };
+		CFEFC31327CB70DD0097F7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEFC31227CB70DD0097F7CE /* Assets.xcassets */; };
+		CFEFC31627CB70DD0097F7CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEFC31527CB70DD0097F7CE /* Preview Assets.xcassets */; };
+		CFEFC32027CB70DD0097F7CE /* LuegenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC31F27CB70DD0097F7CE /* LuegenTests.swift */; };
+		CFEFC32A27CB70DE0097F7CE /* LuegenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC32927CB70DE0097F7CE /* LuegenUITests.swift */; };
+		CFEFC32C27CB70DE0097F7CE /* LuegenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEFC32B27CB70DE0097F7CE /* LuegenUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFEFC31C27CB70DD0097F7CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFEFC30327CB70DC0097F7CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFEFC30A27CB70DC0097F7CE;
+			remoteInfo = Luegen;
+		};
+		CFEFC32627CB70DE0097F7CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFEFC30327CB70DC0097F7CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFEFC30A27CB70DC0097F7CE;
+			remoteInfo = Luegen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFEFC30B27CB70DC0097F7CE /* Luegen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luegen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEFC30E27CB70DC0097F7CE /* LuegenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuegenApp.swift; sourceTree = "<group>"; };
+		CFEFC31027CB70DC0097F7CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFEFC31227CB70DD0097F7CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFEFC31527CB70DD0097F7CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFEFC31B27CB70DD0097F7CE /* LuegenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuegenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEFC31F27CB70DD0097F7CE /* LuegenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuegenTests.swift; sourceTree = "<group>"; };
+		CFEFC32527CB70DE0097F7CE /* LuegenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuegenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEFC32927CB70DE0097F7CE /* LuegenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuegenUITests.swift; sourceTree = "<group>"; };
+		CFEFC32B27CB70DE0097F7CE /* LuegenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuegenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFEFC30827CB70DC0097F7CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEFC31827CB70DD0097F7CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEFC32227CB70DE0097F7CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFEFC30227CB70DC0097F7CE = {
+			isa = PBXGroup;
+			children = (
+				CFEFC30D27CB70DC0097F7CE /* Luegen */,
+				CFEFC31E27CB70DD0097F7CE /* LuegenTests */,
+				CFEFC32827CB70DE0097F7CE /* LuegenUITests */,
+				CFEFC30C27CB70DC0097F7CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFEFC30C27CB70DC0097F7CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFC30B27CB70DC0097F7CE /* Luegen.app */,
+				CFEFC31B27CB70DD0097F7CE /* LuegenTests.xctest */,
+				CFEFC32527CB70DE0097F7CE /* LuegenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFEFC30D27CB70DC0097F7CE /* Luegen */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFC30E27CB70DC0097F7CE /* LuegenApp.swift */,
+				CFEFC31027CB70DC0097F7CE /* ContentView.swift */,
+				CFEFC31227CB70DD0097F7CE /* Assets.xcassets */,
+				CFEFC31427CB70DD0097F7CE /* Preview Content */,
+			);
+			path = Luegen;
+			sourceTree = "<group>";
+		};
+		CFEFC31427CB70DD0097F7CE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFC31527CB70DD0097F7CE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFEFC31E27CB70DD0097F7CE /* LuegenTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFC31F27CB70DD0097F7CE /* LuegenTests.swift */,
+			);
+			path = LuegenTests;
+			sourceTree = "<group>";
+		};
+		CFEFC32827CB70DE0097F7CE /* LuegenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFC32927CB70DE0097F7CE /* LuegenUITests.swift */,
+				CFEFC32B27CB70DE0097F7CE /* LuegenUITestsLaunchTests.swift */,
+			);
+			path = LuegenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFEFC30A27CB70DC0097F7CE /* Luegen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEFC32F27CB70DE0097F7CE /* Build configuration list for PBXNativeTarget "Luegen" */;
+			buildPhases = (
+				CFEFC30727CB70DC0097F7CE /* Sources */,
+				CFEFC30827CB70DC0097F7CE /* Frameworks */,
+				CFEFC30927CB70DC0097F7CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Luegen;
+			productName = Luegen;
+			productReference = CFEFC30B27CB70DC0097F7CE /* Luegen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFEFC31A27CB70DD0097F7CE /* LuegenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEFC33227CB70DE0097F7CE /* Build configuration list for PBXNativeTarget "LuegenTests" */;
+			buildPhases = (
+				CFEFC31727CB70DD0097F7CE /* Sources */,
+				CFEFC31827CB70DD0097F7CE /* Frameworks */,
+				CFEFC31927CB70DD0097F7CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFEFC31D27CB70DD0097F7CE /* PBXTargetDependency */,
+			);
+			name = LuegenTests;
+			productName = LuegenTests;
+			productReference = CFEFC31B27CB70DD0097F7CE /* LuegenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFEFC32427CB70DE0097F7CE /* LuegenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEFC33527CB70DE0097F7CE /* Build configuration list for PBXNativeTarget "LuegenUITests" */;
+			buildPhases = (
+				CFEFC32127CB70DE0097F7CE /* Sources */,
+				CFEFC32227CB70DE0097F7CE /* Frameworks */,
+				CFEFC32327CB70DE0097F7CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFEFC32727CB70DE0097F7CE /* PBXTargetDependency */,
+			);
+			name = LuegenUITests;
+			productName = LuegenUITests;
+			productReference = CFEFC32527CB70DE0097F7CE /* LuegenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFEFC30327CB70DC0097F7CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CFEFC30A27CB70DC0097F7CE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CFEFC31A27CB70DD0097F7CE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CFEFC30A27CB70DC0097F7CE;
+					};
+					CFEFC32427CB70DE0097F7CE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CFEFC30A27CB70DC0097F7CE;
+					};
+				};
+			};
+			buildConfigurationList = CFEFC30627CB70DC0097F7CE /* Build configuration list for PBXProject "Luegen" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFEFC30227CB70DC0097F7CE;
+			productRefGroup = CFEFC30C27CB70DC0097F7CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFEFC30A27CB70DC0097F7CE /* Luegen */,
+				CFEFC31A27CB70DD0097F7CE /* LuegenTests */,
+				CFEFC32427CB70DE0097F7CE /* LuegenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFEFC30927CB70DC0097F7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEFC31627CB70DD0097F7CE /* Preview Assets.xcassets in Resources */,
+				CFEFC31327CB70DD0097F7CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEFC31927CB70DD0097F7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEFC32327CB70DE0097F7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFEFC30727CB70DC0097F7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEFC31127CB70DC0097F7CE /* ContentView.swift in Sources */,
+				CFEFC30F27CB70DC0097F7CE /* LuegenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEFC31727CB70DD0097F7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEFC32027CB70DD0097F7CE /* LuegenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEFC32127CB70DE0097F7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEFC32C27CB70DE0097F7CE /* LuegenUITestsLaunchTests.swift in Sources */,
+				CFEFC32A27CB70DE0097F7CE /* LuegenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFEFC31D27CB70DD0097F7CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFEFC30A27CB70DC0097F7CE /* Luegen */;
+			targetProxy = CFEFC31C27CB70DD0097F7CE /* PBXContainerItemProxy */;
+		};
+		CFEFC32727CB70DE0097F7CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFEFC30A27CB70DC0097F7CE /* Luegen */;
+			targetProxy = CFEFC32627CB70DE0097F7CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFEFC32D27CB70DE0097F7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFEFC32E27CB70DE0097F7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFEFC33027CB70DE0097F7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Luegen/Preview Content\"";
+				DEVELOPMENT_TEAM = B4HR8339XS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JanHummel.Luegen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFEFC33127CB70DE0097F7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Luegen/Preview Content\"";
+				DEVELOPMENT_TEAM = B4HR8339XS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JanHummel.Luegen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFEFC33327CB70DE0097F7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4HR8339XS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JanHummel.LuegenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luegen.app/Luegen";
+			};
+			name = Debug;
+		};
+		CFEFC33427CB70DE0097F7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4HR8339XS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JanHummel.LuegenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luegen.app/Luegen";
+			};
+			name = Release;
+		};
+		CFEFC33627CB70DE0097F7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4HR8339XS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JanHummel.LuegenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Luegen;
+			};
+			name = Debug;
+		};
+		CFEFC33727CB70DE0097F7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4HR8339XS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JanHummel.LuegenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Luegen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFEFC30627CB70DC0097F7CE /* Build configuration list for PBXProject "Luegen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEFC32D27CB70DE0097F7CE /* Debug */,
+				CFEFC32E27CB70DE0097F7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEFC32F27CB70DE0097F7CE /* Build configuration list for PBXNativeTarget "Luegen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEFC33027CB70DE0097F7CE /* Debug */,
+				CFEFC33127CB70DE0097F7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEFC33227CB70DE0097F7CE /* Build configuration list for PBXNativeTarget "LuegenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEFC33327CB70DE0097F7CE /* Debug */,
+				CFEFC33427CB70DE0097F7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEFC33527CB70DE0097F7CE /* Build configuration list for PBXNativeTarget "LuegenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEFC33627CB70DE0097F7CE /* Debug */,
+				CFEFC33727CB70DE0097F7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFEFC30327CB70DC0097F7CE /* Project object */;
+}
